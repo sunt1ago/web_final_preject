@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../images/intro.jpg") center no-repeat;
+    background: url("../images/intro_old.jpg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
