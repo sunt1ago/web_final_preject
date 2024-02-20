@@ -38,6 +38,6 @@ const form = document.querySelector('form');
 
 
 form.addEventListener('submit', (event) => {
-    window.location.href = 'index.html';
+    window.location.href = 'main.html';
     event.preventDefault();
 });

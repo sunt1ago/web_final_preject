@@ -11,9 +11,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../images/intro_old.jpg") center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+   
+    background: #F78A67;
+    background: linear-gradient(180deg, #F78A67, #F7B74D);
 }
 .container{
     position: relative;
