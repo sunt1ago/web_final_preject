@@ -4,7 +4,7 @@ const container = document.querySelector(".container"),
     signUp = document.querySelector(".signup-link"),
     login = document.querySelector(".login-link");
 
-    //   js code to show/hide password and change icon
+    //   Показ/скрытие пароля при нажатии на иконку с глазиком
     pwShowHide.forEach(eyeIcon =>{
         eyeIcon.addEventListener("click", ()=>{
             pwFields.forEach(pwField =>{
