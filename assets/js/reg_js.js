@@ -4,7 +4,7 @@ const container = document.querySelector(".container"),
     signUp = document.querySelector(".signup-link"),
     login = document.querySelector(".login-link");
 
-    //   Показ/скрытие пароля при нажатии на иконку с глазиком
+    //  Показ/скрытие пароля при нажатии на иконку с глазиком
     pwShowHide.forEach(eyeIcon =>{
         eyeIcon.addEventListener("click", ()=>{
             pwFields.forEach(pwField =>{
@@ -25,7 +25,7 @@ const container = document.querySelector(".container"),
         })
     })
 
-    // Код для перехода между формами
+    // Переход между формами
     signUp.addEventListener("click", ( )=>{
         container.classList.add("active");
     });
